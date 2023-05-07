@@ -1,0 +1,22 @@
+.mainDiv {
+  color: white;
+  background-color: #202c33;
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  margin: 1px 0 1px 0;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 60%;
+}
+
+.msg {
+  margin: 0 10px 0 0;
+}
+
+.timestamp {
+  color: #99beb7;
+  font-size: smaller;
+  margin-top: auto;
+}

@@ -1,0 +1,23 @@
+.mainDiv {
+  padding: 0 4% 20px 4%;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1 0 0;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+.mainDiv::-webkit-scrollbar {
+  width: 7px;
+}
+
+.mainDiv::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.mainDiv::-webkit-scrollbar-thumb {
+  background: #363d41;
+  /* border-radius: 10px; */
+}

@@ -1,0 +1,38 @@
+.header {
+  /* height: 59px; */
+  background-color: #202c33;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+  flex: 0 59px;
+}
+
+img {
+  margin: 0 20px 0 0;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 1;
+}
+
+.name {
+  color: white;
+  font-weight: 600;
+  flex-grow: 3;
+}
+
+.glass {
+  margin: 0 10px 0 10px;
+}
+
+.glass,
+.name,
+img,
+.options:hover {
+  cursor: pointer;
+}
+
+.options {
+  margin: 0 10px 0 10px;
+}

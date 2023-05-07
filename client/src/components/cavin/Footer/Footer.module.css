@@ -1,0 +1,50 @@
+.mainFooter {
+  /* height: 62px; */
+  background-color: #202c33;
+  display: flex;
+  align-items: center;
+  flex: 0 62px;
+}
+
+.emoji {
+  margin: 0 10px 0 10px;
+}
+
+.attach {
+  margin: 0 10px 0 10px;
+}
+
+.messager {
+  flex-grow: 2;
+  height: 60%;
+}
+
+span input {
+  padding: 0 0 0 10px;
+  background-color: #2a3942;
+  border: 0;
+  border-radius: 8px;
+  color: #d1d7db;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+span input::placeholder {
+  color: #8696a0;
+}
+
+span input:focus {
+  outline: none;
+}
+
+.send {
+  margin: 0 10px 0 20px;
+}
+
+.emoji,
+.attach,
+.send:hover {
+  cursor: pointer;
+}

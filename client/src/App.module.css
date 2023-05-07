@@ -1,0 +1,18 @@
+body {
+  background-color: #111b21;
+  height: 100vh;
+}
+
+html {
+  height: 100vh;
+}
+
+.Container {
+  padding: 20px;
+  height: 95vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
