@@ -1,13 +1,12 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import AllRoutes from "./AllRoutes";
 import style from "./App.module.css";
+import LeftWindow from "./components/deepak/LeftWindow";
+import RightWindow from "./components/cavin/RightWindow";
 
 function App() {
   return (
     <div className={style.App}>
-      <Router>
-        <AllRoutes />
-      </Router>
+      <LeftWindow></LeftWindow>
+      <RightWindow></RightWindow>
     </div>
   );
 }
