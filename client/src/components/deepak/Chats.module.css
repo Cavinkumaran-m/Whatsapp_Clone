@@ -1,12 +1,38 @@
 .mainDiv {
   height: 72px;
+  color: white;
+  display: flex;
 }
 
-img {
-  /* margin: 0 20px 0 0; */
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  margin: 0 10px 0 10px;
   object-fit: cover;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   flex-shrink: 1;
+}
+
+.name,
+.last_msg {
+  font-size: large;
+  font-weight: 500;
+  flex-grow: 2;
+}
+
+.last_msg {
+  font-weight: 400;
+  font-size: small;
+}
+.chatDiv {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 0.5px solid #363d41;
 }

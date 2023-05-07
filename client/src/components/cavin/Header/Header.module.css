@@ -7,7 +7,7 @@
   flex: 0 59px;
 }
 
-img {
+.header img {
   margin: 0 20px 0 0;
   object-fit: cover;
   width: 40px;
