@@ -1,0 +1,5 @@
+1. npm init
+2. npm install express bcrypt
+3. nom i nodemon
+4. in package.json => under script add, devStart : "nodemon server.js"
+ 

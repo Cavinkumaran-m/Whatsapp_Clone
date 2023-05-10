@@ -1,8 +1,18 @@
 import style from "./Chats.module.css";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import changeConversation from "../../store/Actions";
 
 function Chats(props) {
+  let dispatch = useDispatch();
   return (
-    <div className={style.mainDiv}>
+    <div
+      className={style.mainDiv}
+      id="main"
+      onClick={() => {
+        dispatch(changeConversation(props.data.name));
+      }}
+    >
       <div className={style.image}>
         <img src={props.data.src}></img>
       </div>

@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.mainDiv:hover {
+  background: #202c33;
+  cursor: pointer;
+}
+
 .image {
   display: flex;
   align-items: center;
